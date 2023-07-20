@@ -1,0 +1,15 @@
+Algorithm
+1)URL Validation
+	*Check if the URL starts with a valid protocol
+	*Use a regular expression to validate the rest of the URL's structure. 
+	*The regular expression should check for the following components in a URL:
+		1)Domain: The domain can consist of letters, numbers, hyphens, and periods.
+		2)Path: The path can consist of letters, numbers, hyphens, periods, and slashes.
+
+2)Random Number Generator
+	*We can generate a random number using Math.random() in Java
+	*It create a Random number between 0.1(16 digits after decimal) to 0.9
+	*It only return the number in double so we can round up the value using Math.floo() Function in Java
+	*Now we can get the user input using Scanner class in java
+	*Then check the Random and user number is same or lesser or greate for these we can use nested if
+	
